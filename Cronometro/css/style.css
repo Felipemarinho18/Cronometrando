@@ -1,0 +1,64 @@
+body
+{  
+    background-image: linear-gradient(to right, #b003c5, #b46dbe,#ebebeb);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.cronometrando-container
+{
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+header
+{
+    background-color: #fffc;
+    border-radius: 15px;
+    padding: 1rem;
+    
+}
+
+header h1
+{
+    color: #b46dbe;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration-line: underline; 
+    
+}
+
+header h3
+{
+    color: #b46dbe;
+    font-size: 20px;
+}
+
+#seconds, #tens
+{
+    font-size: 150px;
+}
+
+
+button
+{
+    background-color: #fffc;
+    color: #b46dbe;
+    border: solid 1px #b46dbe;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+}
+button:hover
+{
+    transition: 1s;
+    background-color: #7fffd4;
+    cursor: pointer;
+}
